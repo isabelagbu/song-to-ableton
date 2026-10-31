@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Song to Ableton",
+  "version": "0.3.0",
+  "description": "Listens to the song playing in a tab and suggests Ableton Live instruments that could recreate its sound.",
+  "minimum_chrome_version": "116",
+  "permissions": ["tabCapture", "offscreen", "storage", "unlimitedStorage", "activeTab", "tabs"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Song to Ableton",
+    "default_popup": "popup.html"
+  }
+}

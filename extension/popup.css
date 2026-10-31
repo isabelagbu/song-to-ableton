@@ -1,0 +1,24 @@
+body {
+  width: 280px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+  color: var(--muted);
+}
+
+#timer {
+  color: var(--ink);
+  font-size: 28px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
