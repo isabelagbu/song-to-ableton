@@ -2,7 +2,25 @@
 
 A browser extension that listens to a song playing in a tab and suggests Ableton Live instruments that could recreate its sound.
 
+[![Demo of Song to Ableton listening to a track, then showing tempo, key, matched instruments and history](docs/demo.gif)](docs/demo.mp4)
+
+[Watch the demo with sound](docs/demo.mp4). It runs the real extension on an original demo track. Listening is sped up, and the popup is placed over the song page.
+
 Everything runs on your computer and nothing is uploaded. Once the analysis finishes, the audio is discarded except for one 5-second preview clip per layer. Results and clips are saved in the extension's local storage, and they're deleted if you remove the extension.
+
+## Screenshots
+
+**Listen to any tab.** Play a song, then start listening from the toolbar.
+
+![The popup timing a capture while a demo track plays](docs/listening.png)
+
+**See what could make that sound.** Each song gets its tempo and key, plus instruments for each layer, marked by whether your Live edition includes them.
+
+![Results for a demo track with tempo, key, drum matches and a history list](docs/results.png)
+
+**Hear the part you're looking at.** Click an instrument to play the moment its layer stands out.
+
+![The Drift card playing a preview in the Chords and melody layer](docs/hear.png)
 
 ## Install
 
