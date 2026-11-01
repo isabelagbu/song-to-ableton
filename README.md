@@ -2,6 +2,8 @@
 
 A browser extension that listens to a song playing in a tab and suggests Ableton Live instruments that could recreate its sound.
 
+It's a great tool for beginners like myself who are trying to learn music production. Pick a song you love and see where to start in Ableton.
+
 [![Demo of Song to Ableton listening to a track, then showing tempo, key, matched instruments and history](docs/demo.gif)](docs/demo.mp4)
 
 [Watch the demo with sound](docs/demo.mp4). It runs the real extension on an original demo track. Listening is sped up, and the popup is placed over the song page.
